@@ -96,10 +96,10 @@ winget install ComicTagger.ComicTagger
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/fcanc">
-            <img src="https://avatars.githubusercontent.com/u/4999486?v=4" width="100;" alt="fcanc"/>
+        <a href="https://github.com/csandman">
+            <img src="https://avatars.githubusercontent.com/u/9214195?v=4" width="100;" alt="csandman"/>
             <br />
-            <sub><b>fcanc</b></sub>
+            <sub><b>csandman</b></sub>
         </a>
     </td>
     <td align="center">
@@ -124,6 +124,13 @@ winget install ComicTagger.ComicTagger
         </a>
     </td></tr>
 <tr>
+    <td align="center">
+        <a href="https://github.com/fcanc">
+            <img src="https://avatars.githubusercontent.com/u/4999486?v=4" width="100;" alt="fcanc"/>
+            <br />
+            <sub><b>fcanc</b></sub>
+        </a>
+    </td>
     <td align="center">
         <a href="https://github.com/abuchanan920">
             <img src="https://avatars.githubusercontent.com/u/368793?v=4" width="100;" alt="abuchanan920"/>
@@ -158,15 +165,15 @@ winget install ComicTagger.ComicTagger
             <br />
             <sub><b>rhaussmann</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/AlbanSeurat">
             <img src="https://avatars.githubusercontent.com/u/500180?v=4" width="100;" alt="AlbanSeurat"/>
             <br />
             <sub><b>AlbanSeurat</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Sn1cket">
             <img src="https://avatars.githubusercontent.com/u/32904645?v=4" width="100;" alt="Sn1cket"/>
@@ -201,15 +208,15 @@ winget install ComicTagger.ComicTagger
             <br />
             <sub><b>DrMcCoy</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Xav83">
             <img src="https://avatars.githubusercontent.com/u/6787157?v=4" width="100;" alt="Xav83"/>
             <br />
             <sub><b>Xav83</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/thFrgttn">
             <img src="https://avatars.githubusercontent.com/u/39759781?v=4" width="100;" alt="thFrgttn"/>
