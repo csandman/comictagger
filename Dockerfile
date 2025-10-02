@@ -7,9 +7,10 @@ RUN apt-get update \
   && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/* /root/.cache
 
 # 2. set up virtualenv and ComicTagger (GUI+CBR)
+ARG COMICTAGGER_VERSION=1.6.0b6
 RUN python3 -m venv /opt/comictagger-venv \
   && /opt/comictagger-venv/bin/pip install --no-cache-dir --upgrade pip setuptools wheel \
-  && /opt/comictagger-venv/bin/pip install --no-cache-dir --pre "comictagger[GUI,CBR]==1.6.0b6"
+  && /opt/comictagger-venv/bin/pip install --no-cache-dir --pre "comictagger[GUI,CBR]==${COMICTAGGER_VERSION}"
 
 # 3. remove build deps
 RUN apt-get purge -y --auto-remove python3-dev libffi-dev pkg-config libicu-dev build-essential && \

@@ -2,6 +2,11 @@ name: Build & Publish Docker image
 
 on:
   workflow_dispatch:
+    inputs:
+      comictagger_version:
+        description: "ComicTagger version to install and tag (e.g., 1.6.0b6)"
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -27,6 +32,8 @@ jobs:
         with:
           context: .
           push: true
+          build-args: |
+            COMICTAGGER_VERSION=${{ inputs.comictagger_version }}
           tags: |
             ghcr.io/${{ github.repository_owner }}/comictagger:latest
-            ghcr.io/${{ github.repository_owner }}/comictagger:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner }}/comictagger:${{ inputs.comictagger_version }}
